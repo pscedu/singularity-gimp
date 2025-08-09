@@ -1,36 +1,33 @@
-![Status](https://github.com/pscedu/singularity-octave/actions/workflows/main.yml/badge.svg)
-![Status](https://github.com/pscedu/singularity-octave/actions/workflows/pretty.yml/badge.svg)
-![Issue](https://img.shields.io/github/issues/pscedu/singularity-octave)
-![forks](https://img.shields.io/github/forks/pscedu/singularity-octave)
-![Stars](https://img.shields.io/github/stars/pscedu/singularity-octave)
-![License](https://img.shields.io/github/license/pscedu/singularity-octave)
+![Status](https://github.com/pscedu/singularity-gimp/actions/workflows/main.yml/badge.svg)
+![Status](https://github.com/pscedu/singularity-gimp/actions/workflows/pretty.yml/badge.svg)
+![Issue](https://img.shields.io/github/issues/pscedu/singularity-gimp)
+![forks](https://img.shields.io/github/forks/pscedu/singularity-gimp)
+![Stars](https://img.shields.io/github/stars/pscedu/singularity-gimp)
+![License](https://img.shields.io/github/license/pscedu/singularity-gimp)
 
-# singularity-octave
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Gnu-octave-logo.svg/1920px-Gnu-octave-logo.svg.png" width="15%">
-
-Singularity recipe for [Octave](https://www.gnu.org/software/octave/).
+# singularity-gimp
+Singularity recipe for GIMP.
 
 ## Installing the container on Bridges 2
 Copy the
 
 * `SIF` file
-* and the `octave-cli`, `pandoc` and `gnuplot` scripts
+* and the `gimp` script
 
-to `/opt/packages/octave/6.3.0`.
+to `/opt/packages/gimp/3.0.4`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/octave` as `6.3.0.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/gimp` as `3.0.4.lua`.
 
 ## Building the image using the recipe
-
 ### To build the image locally
-Run the script `build.sh` to build image locally
+Run the script `build.sh` to build image locally.
 
 ```
 bash ./build.sh
-````
+```
 
 ### To build the image remotely
-Run the script `rbuild.sh` to build image remotely
+Run the script `rbuild.sh` to build image remotely.
 
 ```
 bash ./rbuild.sh
@@ -44,6 +41,6 @@ bash ./test.sh
 ```
 
 ---
-Copyright © 2020-2021 Pittsburgh Supercomputing Center. All Rights Reserved.
+Copyright © 2025 Pittsburgh Supercomputing Center. All Rights Reserved.
 
 The [Biomedical Applications Group](https://www.psc.edu/biomedical-applications/) at the [Pittsburgh Supercomputing Center](http://www.psc.edu) in the [Mellon College of Science](https://www.cmu.edu/mcs/) at [Carnegie Mellon University](http://www.cmu.edu).
